@@ -1,8 +1,9 @@
 '''
-util.py
-    In the real world, I would never recommend you to have a catch-all
-    util file - this is how you lost track of where functions live!
-    We're only using this util file for today's unit testing workshop.
+    split_test.py
+    
+    This file tests string.split(). In the real world, there's no need to test
+    Python's library functions, but we're just doing this as an intro to unit
+    tests.
 '''
 
 import unittest
@@ -13,7 +14,7 @@ KEY_LENGTH = "length"
 KEY_FIRST_WORD = "first_word"
 KEY_SECOND_WORD = "second_word"
 
-class StringSplitTestCase(unittest.TestCase):
+class SplitTestCase(unittest.TestCase):
     def setUp(self):
         self.success_test_params = [
             {
