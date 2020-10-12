@@ -12,7 +12,7 @@ For this exercise, you're going to be fixing already written test cases.
 4. Read through the code with your in-class partners and understand what's
    happening.
 5. Fix those test cases by modifying the test code 
-    (you should not need to modify test\_split\_success or test\_split\_failure)
+    (you should not need to modify `test_split_success` or `test_split_failure`)
 6. Add your own success case and your own failure case!
 
 
