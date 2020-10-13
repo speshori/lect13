@@ -49,7 +49,7 @@ class ChatbotTestCase(unittest.TestCase):
             self.assertEqual(response[KEY_IS_BOT], expected[KEY_IS_BOT])
             self.assertEqual(response[KEY_BOT_COMMAND], expected[KEY_BOT_COMMAND])
             self.assertEqual(response[KEY_MESSAGE], expected[KEY_MESSAGE])
-            # Alternatively (and preferably), you can do self.assertEqual(response, expected)
+            # Alternatively (and preferably), you can do self.assertDictEqual(response, expected)
             
     def test_parse_message_failure(self):
         for test in self.failure_test_params:

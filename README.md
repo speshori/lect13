@@ -18,3 +18,9 @@ For this exercise, you're going to be fixing already written test cases.
 
 ## Treat Yo Self (To Unit Tests)
 
+1. Run the success tests: `python chatbot_test.py ChatbotTestCase.test_parse_message_success`
+2. Read through the code with your in-class partners and understand what's
+   happening.
+3. Fix those text cases by modify the test code
+    (you should not need to modify `test_parse_message_success`)
+4. For homework, add at least one additional success test and at least 3 failure tests.
