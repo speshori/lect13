@@ -9,7 +9,7 @@ For this exercise, you're going to be fixing already written test cases.
 
 1. Run the success tests: `python split_test.py SplitTestCase.test_split_success`
 2. Run the failure tests: `python split_test.py SplitTestCase.test_split_failure`
-3. Read through the code with your in-class partners and understand what's
+3. Read through `split_test.py` with your in-class partners and understand what's
    happening.
 4. Fix those test cases by modifying the test code 
     (you should not need to modify `test_split_success` or `test_split_failure`)
@@ -19,7 +19,7 @@ For this exercise, you're going to be fixing already written test cases.
 ## Treat Yo Self (To Unit Tests)
 
 1. Run the success tests: `python chatbot_test.py ChatbotTestCase.test_parse_message_success`
-2. Read through the code with your in-class partners and understand what's
+2. Read through `chatbot_test.py` with your in-class partners and understand what's
    happening.
 3. Fix those text cases by modify the test code
     (you should not need to modify `test_parse_message_success`)
