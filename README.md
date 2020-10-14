@@ -36,7 +36,4 @@ For this exercise, you're going to be fixing already written test cases.
 1. Navigate to https://circleci.com/signup/ and *Sign up with Github*  
 2. Authorize CircleCI.  
 3. Make sure you're in the right repo in the top right hand corner (this should be your account, not the organization).  
-4. Once you've verified that, click "Set Up Project" next to lect13.  
-5. Confirm that the language is set to Python and click "Add Config".  
-6. CircleCI might ask if you want to see the new UI. If it does, click "yes" and it should redirect you.
-7. Now it'll bring you to a page that says "Failed".
+4. Once you've verified that, follow the demo on YouTube!
