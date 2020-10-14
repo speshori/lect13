@@ -12,8 +12,8 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: ./chatbot_test.py
-          name: ChatBot Test
+          command: ./manage.py test
+          name: Test
 
 workflows:
   main:
